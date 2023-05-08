@@ -43,10 +43,10 @@ function init() {
     }
 
     speak.onstart = (event) => {
-      document.querySelector("img").src = "/assets/images/smiling-open.png"
+      document.querySelector("img").src = "./assets/images/smiling-open.png"
     }
     speak.onend = (event) => {
-      document.querySelector("img").src = "/assets/images/smiling.png"
+      document.querySelector("img").src = "./assets/images/smiling.png"
     }
     console.log(synth.speaking);
     synth.speak(speak);
